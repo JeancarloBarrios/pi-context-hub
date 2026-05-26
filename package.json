@@ -14,9 +14,16 @@
   "keywords": [
     "pi-package",
     "pi",
+    "pi-coding-agent",
+    "pi-extension",
     "context-hub",
     "chub",
+    "aisuite",
     "agent-skills",
+    "coding-agent",
+    "llm",
+    "api-docs",
+    "sdk-docs",
     "documentation"
   ],
   "license": "MIT",
