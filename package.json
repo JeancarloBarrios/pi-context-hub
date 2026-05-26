@@ -1,0 +1,47 @@
+{
+  "name": "pi-context-hub",
+  "version": "0.1.0",
+  "description": "Pi extension wrapping Context Hub (@aisuite/chub) for current API and SDK docs.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "README.md",
+    "extensions/",
+    "skills/"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi",
+    "context-hub",
+    "chub",
+    "agent-skills",
+    "documentation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@aisuite/chub": "^0.1.4"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeancarloBarrios/pi-context-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeancarloBarrios/pi-context-hub/issues"
+  },
+  "homepage": "https://github.com/JeancarloBarrios/pi-context-hub#readme"
+}
